@@ -1,1 +1,1 @@
-Autora: Mirele Oliveira
+Site sobre a inteligência artificial 

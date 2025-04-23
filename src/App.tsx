@@ -18,8 +18,8 @@ function App() {
             <main className=" flex flex-col gap-4 lg:flex-row lg:justify-between">
                 <section className="flex flex-col gap-2 lg:w-full bg-white pb-8 p-2 lg:ml-[50px] lg:p-4">
                     <h2
-                        className="text-[#003460] bg-white
-                text-3xl font-bold text-center p-2"
+                        className="text-[#003460] bg-white text-xl
+                md:text-3xl font-bold text-center p-2"
                     >
                         Inteligência Artificial: A tecnologia que está mudando o
                         mundo
@@ -53,27 +53,30 @@ function App() {
                     </b>
                     <ul className="list-disc pl-5 text-blue-800 text-justify">
                         <li>
-                            <a href="#">
+                            <a href="#topico1">
                                 Qual é a origem da inteligência Artificial?
                             </a>
                         </li>
                         <li>
-                            <a href="#">Tipos de Inteligência artificial</a>
+                            <a href="#topico2">
+                                Tipos de Inteligência artificial
+                            </a>
                         </li>
                         <li>
-                            <a href="#">
+                            <a href="#topico3">
                                 Por que as pessoas temem o avanço da
                                 Inteligência Artficial?
                             </a>
                         </li>
                         <li>
-                            <a href="#">
+                            <a href="#topico4">
                                 O futuro da Inteligência artificial e seu
                                 impacto na sociedade
                             </a>
                         </li>
                     </ul>
                     <h2
+                        id="topico1"
                         className="text-[#003460] bg-white
                 text-xl font-bold  p-2"
                     >
@@ -132,6 +135,7 @@ function App() {
                     </p>
 
                     <h2
+                        id="topico2"
                         className="text-[#003460] bg-white
                 text-xl font-bold  p-2"
                     >
@@ -182,7 +186,10 @@ function App() {
                         futuro, poderia ser dominado por máquinas. No entanto,
                         ela ainda é apenas uma teoria.
                     </p>
-                    <h2 className="text-[#003460] bg-white text-xl font-bold  p-2">
+                    <h2
+                        id="topico3"
+                        className="text-[#003460] bg-white text-xl font-bold  p-2"
+                    >
                         Por que as pessoas temem o avanço da Inteligência
                         Artficial?
                     </h2>
@@ -228,7 +235,10 @@ function App() {
                         medo em relação a sistemas inteligentes alimentando
                         temores de substituição ou aniquilação.
                     </p>
-                    <h2 className="text-[#003460] bg-white text-xl font-bold  p-2">
+                    <h2
+                        id="topico4"
+                        className="text-[#003460] bg-white text-xl font-bold  p-2"
+                    >
                         O futuro da Inteligência artificial e seu impacto na
                         sociedade
                     </h2>
@@ -305,7 +315,7 @@ function App() {
                             descricao="Especialista comenta sobre a inteligência artificial no campo educacional."
                         />
                     </div>
-                    <div className="flex flex-col itens-center justify-center border-3 border-[#003360] p-2 w-[95%] lg:w-[90%]">
+                    <div className="flex flex-col itens-center justify-center border-3 border-[#003360] p-2 w-[95%] lg:w-[90%]  m-auto">
                         <div className="flex flex-row items-center gap-3">
                             <img
                                 className="w-[15%] rounded-[50%]"

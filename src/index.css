@@ -4,5 +4,11 @@ body {
     min-height: 100svh;
     width: 100%;
     font-family: sans-serif;
-    background-color: #e7ecf1;
+    background-color: white;
+}
+
+@media (min-width: 1024px) {
+    body {
+        background-color: #e7ecf1;
+    }
 }

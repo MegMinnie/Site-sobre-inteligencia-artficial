@@ -10,7 +10,7 @@ interface IFooter {
 function Footer({ logo2 }: IFooter) {
     return (
         <>
-            <footer className="bg-black text-white flex flex-row  md:flex-row items-center justify-between p-4 text-center gap-4 md:gap-0 lg:p-6">
+            <footer className="bg-black text-white flex flex-row  md:flex-row items-center justify-between p-4 text-center gap-4 md:gap-0 lg:p-6 mt-5">
                 <div className="md:items-center md:gap-2 md:visible md:flex md:w-1/3 hidden">
                     <img className="logo2 w-[14%]" src={logo2} alt="logo" />
                     <p className="text-4xl font-bold">Integra</p>

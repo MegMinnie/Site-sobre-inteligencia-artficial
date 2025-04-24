@@ -1,4 +1,5 @@
 import { FiMenu } from "react-icons/fi";
+import { CiSearch } from "react-icons/ci";
 interface IHeader {
     logo: string;
 }
@@ -17,9 +18,19 @@ function Header({ logo }: IHeader) {
                         Integra
                     </h1>
                 </div>
-                <i className="text-white text-2xl">
+                <i className="text-white text-2xl lg:hidden ">
                     <FiMenu />
                 </i>
+                <div className="hidden lg:flex flex-row items-center border-1 border-gray-400">
+                    <input
+                        className="text-white p-2 "
+                        type="text"
+                        placeholder="Pesquisar..."
+                    />
+                    <i className="p-2  text-white font-bold text-2xl">
+                        <CiSearch />
+                    </i>
+                </div>
             </header>
         </>
     );

@@ -314,21 +314,21 @@ function App() {
                             titulo="ChatGPT na educação:"
                             descricao="Especialista comenta sobre a inteligência artificial no campo educacional."
                         />
-                    </div>
-                    <div className="flex flex-col itens-center justify-center border-3 border-[#003360] p-2 w-[95%] lg:w-[90%]  m-auto">
-                        <div className="flex flex-row items-center gap-3">
-                            <img
-                                className="w-[15%] rounded-[50%]"
-                                src={perfil}
-                                alt="Perfil"
-                            />
-                            <b>Escrito por: Mirele Oliveira</b>
+                        <div className="flex flex-col itens-center justify-center border-3 border-[#003360] p-2 w-[95%] lg:w-[90%]  m-auto">
+                            <div className="flex flex-row items-center gap-3">
+                                <img
+                                    className="w-[15%] rounded-[50%]"
+                                    src={perfil}
+                                    alt="Perfil"
+                                />
+                                <b>Escrito por: Mirele Oliveira</b>
+                            </div>
+                            <p className="text-justify">
+                                graduanda em Licenciatura em Computação pelo
+                                IFBA - Instituto Federal de Educação, Ciência e
+                                Tecnologia da Bahia.
+                            </p>
                         </div>
-                        <p className="text-justify">
-                            graduanda em Licenciatura em Computação pelo IFBA -
-                            Instituto Federal de Educação, Ciência e Tecnologia
-                            da Bahia.
-                        </p>
                     </div>
                 </section>
             </main>
